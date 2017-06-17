@@ -1,0 +1,43 @@
+@author "msHayden1998";
+@since "16/06/2017";
+
+* a {color: #0059b3}
+.accessibility-title {display:none}
+h1 {
+    text-align:center;
+}
+body {
+	margin:0;
+}
+lu {
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	border-bottom:1px solid #E6E6E6;
+	display:block;
+}
+li {
+	float:left;
+}
+li a {
+	display:block;
+	margin:5px 0;
+	padding:8px 10px;
+	text-decoration:none;
+	border-right:1px solid #E6E6E6;
+}
+li a:hover {
+	background-color:#E6E6E6;
+}
+#settings {
+	float:right;
+}
+#settings a {
+	border-left:1px solid #E6E6E6;
+	border-right:none;
+}
+li img {
+	vertical-align:-10px;
+	margin-right:10px;
+}
