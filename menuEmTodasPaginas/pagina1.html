@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página1</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="msHayden1998">
+	<style>
+	iframe {
+		border:1px solid green;
+		width:100%;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<iframe src="menu_topo.html"></iframe>
+	</header>
+	<div>
+		<h1>Observações:</h1>
+		<p>
+		Perceba que o menu é chamado através do elemento <strong>iframe</strong>.
+		</p>
+		<p>
+		Nunca esqueça de acrescentar a propriedade <strong>target="_top"</strong> em todos os links (tag a) para que uma página não se abra apenas dentro do elemento iframe.
+		</p>
+		<p>
+		Funciona, mas use apenas para facilitar o desenvolvimento. De preferência não deixe na "versão final" do seu website.
+		</p>
+		<p>
+		Para o css externo funcionar no seu menu horizontal, você deve chamá-lo através da tag <strong>link</strong> pois se trata de outro documento HTML.
+		</p>
+	</div>
+</body>
+</html>
